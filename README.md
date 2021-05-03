@@ -4,7 +4,7 @@ ArrayToCsvBalanced is a very lightweight package that given an array generates a
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [npm](https://www.npmjs.com/) to install.
 
 ```bash
 npm install arraytocsvbalanced
