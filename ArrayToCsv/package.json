@@ -1,8 +1,8 @@
 {
   "name": "arraytocsvbalanced",
-  "version": "1.0.2",
-  "description": "A load balanced array to csv converter that saves to specified directory",
-  "main": "ArrayToCsv.js",
+  "version": "1.0.6",
+  "description": "A load balanced array to csv converter",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "Array",
-    "Csv",
+    "CSV",
     "LoadBalanced"
   ],
   "author": "tnings",
