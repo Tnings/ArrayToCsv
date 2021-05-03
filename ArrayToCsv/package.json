@@ -1,23 +1,24 @@
 {
-  "name": "arraytocsv",
+  "name": "arraytocsvbalanced",
   "version": "1.0.0",
-  "description": "Array to CSV converter",
-  "main": "index.js",
+  "description": "A load balanced array to csv converter that saves to specified directory",
+  "main": "ArrayToCsv.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tnings/ArrayToCsv.git"
+    "url": "git+https://github.com/Tnings/ArrayToCsvBalanced.git"
   },
   "keywords": [
     "Array",
-    "CSV"
+    "Csv",
+    "LoadBalanced"
   ],
   "author": "tnings",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Tnings/ArrayToCsv/issues"
+    "url": "https://github.com/Tnings/ArrayToCsvBalanced/issues"
   },
-  "homepage": "https://github.com/Tnings/ArrayToCsv#readme"
+  "homepage": "https://github.com/Tnings/ArrayToCsvBalanced#readme"
 }
