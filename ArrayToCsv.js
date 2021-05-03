@@ -1,8 +1,7 @@
 let fs = require('fs');
 const p = require("path");
 
-function process(array, path, loadSize, installPath, options){
-    let fileName = p.basename(path,p.extname(path));
+function process(array, fileName, loadSize, installPath, options){
     let tempString = '';
     let numOfLoads = parseInt(array.length / loadSize);
     let currentLoadNum = 0;
