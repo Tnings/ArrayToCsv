@@ -1,6 +1,6 @@
 {
   "name": "arraytocsvbalanced",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A load balanced array to csv converter that saves to specified directory",
   "main": "ArrayToCsv.js",
   "scripts": {
