@@ -17,7 +17,7 @@ const ArrayToCsv = require('arraytocsvbalanced');
 
 
 let options = { logs:true };
-ArrayToCsv.process(yourArray, fileName, loadSize, installPath, options);
+ArrayToCsv.processToFile(yourArray, fileName, loadSize, installPath, options);
 ```
 
 ## Contributing

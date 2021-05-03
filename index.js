@@ -1,6 +1,6 @@
 let fs = require('fs');
 
-function process(array, fileName, loadSize, installPath, options){
+function processToFile(array, fileName, loadSize, installPath, options){
     let tempString = '';
     let numOfLoads = parseInt(array.length / loadSize);
     let currentLoadNum = 0;
@@ -19,14 +19,14 @@ function process(array, fileName, loadSize, installPath, options){
         }
         currentLoadNum++;
         if(m === 0){
-            fs.writeFile(install, tempString, err => {
+            fs.writeFile(install, tempString.toString(), err => {
                 if (err) {
                     console.error(err)
                 }
             })
         }
         else{
-            fs.appendFile(install,tempString,err => {
+            fs.appendFile(install,tempString.toString(),err => {
                 if (err) {
                     console.error(err)
                 }
@@ -42,4 +42,6 @@ function process(array, fileName, loadSize, installPath, options){
 
 }
 
-module.exports = { process };
+
+
+module.exports = { processToFile };
