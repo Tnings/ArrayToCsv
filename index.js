@@ -1,6 +1,6 @@
 let fs = require('fs');
 
-function process(array, fileName, loadSize, installPath, options){
+function processToFile(array, fileName, loadSize, installPath, options){
     let tempString = '';
     let numOfLoads = parseInt(array.length / loadSize);
     let currentLoadNum = 0;
@@ -42,4 +42,6 @@ function process(array, fileName, loadSize, installPath, options){
 
 }
 
-module.exports = { process };
+
+
+module.exports = { processToFile };
