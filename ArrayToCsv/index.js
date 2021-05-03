@@ -1,5 +1,4 @@
 let fs = require('fs');
-const p = require("path");
 
 function process(array, fileName, loadSize, installPath, options){
     let tempString = '';
