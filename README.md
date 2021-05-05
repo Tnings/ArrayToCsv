@@ -12,12 +12,20 @@ npm install arraytocsvbalanced
 
 ## Usage
 
-```nodejs
+```javascript
 const ArrayToCsv = require('arraytocsvbalanced');
 
 
 let options = { logs:true };
 ArrayToCsv.processToFile(yourArray, fileName, loadSize, installPath, options);
+```
+
+```javascript
+const ArrayToCsv = require('arraytocsvbalanced');
+
+
+let options = { logs:true };
+ArrayToCsv.processToFile([0,0,0,1,2,10,111,400,10], 'myFile', 3, './', { logs:true });
 ```
 
 ## Contributing
